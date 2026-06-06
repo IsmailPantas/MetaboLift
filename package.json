@@ -1,0 +1,16 @@
+{
+  "name": "metabolift-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "mobile": "npm --prefix mobile start",
+    "mobile:android": "npm --prefix mobile run android",
+    "mobile:ios": "npm --prefix mobile run ios",
+    "web": "npm --prefix web start",
+    "backend": "npm --prefix backend run start",
+    "install:mobile": "npm --prefix mobile install",
+    "install:web": "npm --prefix web install",
+    "install:backend": "npm --prefix backend install",
+    "install:all": "npm run install:mobile && npm run install:web && npm run install:backend"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "metabolift-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "backfill:users:premium-ai:dry": "node scripts/backfillUserPremiumAiUsage.js",
+    "backfill:users:premium-ai": "node scripts/backfillUserPremiumAiUsage.js --apply",
+    "grant:elite-premium": "node scripts/grantElitePremiumToUser.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "multer": "^1.4.5-lts.2"
+  }
+}

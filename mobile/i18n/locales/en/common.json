@@ -1,0 +1,12 @@
+{
+  "mealPlan": {
+    "title": "Weekly Plan",
+    "subtitle": "Plan meals and foods for the selected day.",
+    "emptySearchHint": "Search to add a food."
+  },
+  "common": {
+    "cancel": "Cancel",
+    "add": "Add",
+    "save": "Save"
+  }
+}

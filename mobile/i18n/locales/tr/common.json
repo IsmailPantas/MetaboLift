@@ -1,0 +1,12 @@
+{
+  "mealPlan": {
+    "title": "Haftalik Plan",
+    "subtitle": "Secilen gun icin ogunlerini planla ve besinlerini ekle.",
+    "emptySearchHint": "Besin eklemek icin arama yapin."
+  },
+  "common": {
+    "cancel": "Vazgec",
+    "add": "Ekle",
+    "save": "Kaydet"
+  }
+}
